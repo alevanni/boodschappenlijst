@@ -1,0 +1,61 @@
+html {
+    font-family: 'Space Mono', sans-serif;
+}
+
+table {
+
+    border-collapse: collapse;
+    border: 1px solid #888;
+}
+
+th {
+    border: 1px solid #888;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    background-color: darkolivegreen;
+}
+
+td {
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+
+.productPrice,
+.aantal,
+.productTotalCost,
+.totalCost {
+    text-align: right;
+}
+
+.product {
+    background-color: lightgreen;
+}
+
+.productPrice {
+    background-color: mediumspringgreen;
+}
+
+.aantal {
+    background-color: lightgreen;
+}
+
+.productTotalCost {
+    background-color: mediumspringgreen;
+}
+
+.productQuantity {
+
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+tfoot td {
+    background-color: olive;
+}
+
+.errors {
+    color: red;
+}
